@@ -2,12 +2,12 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#faf7f2] text-[#263b35]">
-      <header className="flex items-center justify-between px-6 py-6 md:px-16">
+      <header className="flex flex-wrap items-center justify-between gap-4 px-4 py-5 md:flex-nowrap md:px-16">
         <a href="#" className="text-xl font-semibold tracking-wide">
           Maya Reynolds<span className="text-[#b77b60]">.</span>
         </a>
 
-        <nav className="hidden items-center gap-8 text-sm md:flex">
+        <nav className="flex flex-wrap items-center gap-3 text-sm md:gap-8">
           <a href="#about">About</a>
           <a href="#services">Services</a>
           <a href="#office">Our Office</a>
